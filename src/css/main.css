@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen flex flex-col items-center justify-center sm:bg-Pattern-mobile lg:bg-Pattern-desktop bg-no-repeat bg-Paleblue;
+}
+
+main {
+  @apply text-center rounded-2xl sm:max-w-xs max-w-sm m-5 bg-White text-base;
+}
+.card {
+     @apply m-4 p-2
+}
+.illustration-hero {
+  @apply rounded-t-2xl;
+}
+.Plan {
+     @apply flex flex-row bg-Verypaleblue items-center justify-around rounded-2xl p-3 m-4
+}
+.Plan_tittle {
+     @apply text-Darkblue font-semibold
+}
+.Plan_price {
+     @apply text-Desaturatedblue font-medium
+}
+
+.tittle_text {
+     @apply text-Darkblue font-bold text-3xl font-RedHats mb-4
+}
+
+.paragraph_text {
+     @apply text-Desaturatedblue font-RedHats text-base px-3
+}
+
+.Plan_change-link {
+     @apply text-Darkblue underline text-xs hover:no-underline hover:text-Brightblue
+}
+
+.buttons{
+     @apply flex flex-col
+}
+.payment {
+     @apply bg-Darkblue text-White rounded-xl py-3 font-bold shadow-lg shadow-Desaturatedblue cursor-pointer hover:bg-Brightblue
+}
+.cancel {
+     @apply text-Desaturatedblue font-bold m-4 hover:cursor-pointer hover:text-Darkblue
+}
+.attribution {
+  @apply text-xs text-center;
+}
+.attribution a {
+  @apply text-blue;
+}
